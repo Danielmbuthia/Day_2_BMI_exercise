@@ -7,8 +7,13 @@ weight = input("enter your weight in kg: ")
 
 height = float(height)
 weight = float(weight)
-BMI = weight/(height*height)
-print(BMI)
+BMI = weight/(height*height) # 
+
+print(int(BMI))
+#f-string 
+print(f" Your BMI is {BMI}")
+
+
 
 
 
